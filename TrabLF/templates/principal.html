@@ -1,0 +1,68 @@
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link type="text/css" rel="stylesheet" href="../assets/styles/css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/styles/css/principal/principal.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    
+        <script type="text/javascript" src="../assets/js/jquery.js"></script>
+        <script type="text/javascript" src="../assets/js/index.js"></script>
+        <script type="text/javascript" src="../assets/js/validator.js"></script>
+    </head>
+
+      <header>
+         <div>
+            <div>Analisador Léxico</div>
+         </div>
+         </div>
+    </header>
+
+    <body>
+        <div>
+        <main>
+            <form onsubmit="return false;">
+                <div >
+                    <div class="div-adicionar" >
+                        <div >
+                            <div class = "title"><b>Adicione Palavras</b></div>
+                        </div>
+                        <div>
+                            <div>
+                                <input  id="word" type="text"  value="" placeholder="Adicione Palavras">
+                            </div>
+                            <div>
+                                <table>
+                                    <tbody id="listWords"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="form-group">
+                                <button class="btn third" title="Adicionar o token" onclick="addWordTocollection();"> Adicionar</button>
+                                <button class="btn first" onclick="removeWord();">Limpar palavras salvas</button>
+                            </div>
+                        </div>
+                    </div>
+                <div class="div-adicionar" >
+                    <div>
+                        <div class = "title"><b>Digite a palavra para validar</b></div>
+                    </div>
+                    <div >
+                        <div >
+                            <input type="text" id="validate" placeholder="Validar palavra" autocomplete="off"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+            <div >
+                <table id="table-automaton"></table>
+            </div>
+            </div>
+            </main>
+            <div id="mascara"></div>
+            </body>
+</html>

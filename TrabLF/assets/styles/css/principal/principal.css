@@ -1,0 +1,127 @@
+header{
+    text-align: center;
+    background-color:white;
+    color:#7a4ddc;
+    box-shadow:0px 1px 0px #7a4ddc;
+    padding-top:20px;
+    padding-bottom:20px}
+
+.title{
+    text-align: center;
+    color:#7a4ddc;
+    margin: 20 20 20 20;
+}
+
+
+#pronto
+{border-radius:10px;
+    font-weight:bold;
+    height:50px
+}
+#table-automaton
+{
+    margin-bottom:5%;
+    background-color:white
+}
+#table-automaton th{
+    background-color:white;
+    color:#7a4ddc;
+    padding:10px 0;
+    border:1px solid #7a4ddc;
+    text-align:center
+}
+#table-automaton td
+{
+    padding:8px 5px;
+    text-align:center;
+    border:1px solid #7a4ddc;width:40px
+}
+.selectedStatus td,.selectedField
+{
+    background-color:#d47de7c7
+}
+.selectedStatus td.selectedField{
+    color:white;
+    background-color:#7a4ddc;
+    font-weight:bold
+}
+.selectedStatusFalse td.selectedFieldFalse{
+    color:#fff;
+    font-weight:bold;
+    background:red
+}
+#validate{
+    text-transform:lowercase
+}
+#validate.error{
+    border:2px solid #ed2d2d
+}
+#validate.correct{
+    border:2px solid #00ff77
+}
+
+input[type=text] {
+    border: 2px solid #7a4ddc;
+    border-radius: 4px;
+    height: 30px;
+    width: 400px;
+    margin: 0 0 0 50 ;
+  }
+
+.btn {
+    align-items: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 1;
+    margin: 45px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #020400;
+    outline: 0;
+  }
+  .first {
+    border-color: #cd2d2d;
+    color: #020400;
+    box-shadow: 0 0 40px 40px #cd2d2d inset, 0 0 0 0#cd2d2d;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .first:hover:hover {
+    box-shadow: 0 0 10px 0 #cd2d2d inset, 0 0 10px 4px #cd2d2d;
+  }
+
+.third {
+    border-color: #18ffb6;
+    color: #020400;
+    box-shadow: 0 0 40px 40px  #18ffb6 inset, 0 0 0 0  #18ffb6;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0  #18ffb6 inset, 0 0 10px 4px  #18ffb6;
+  }
+  .tabela{
+    margin-top: 5px;
+border-width: 2px;
+border-style: dashed;
+border-color: #7a4ddc;
+
+    
+  }
+ 
+  .div-adicionar{
+    border-color: #7a4ddc;
+    float:left;
+    margin: 40 80 40 40;
+    background-color:#fff;
+    display:inline-block;
+    height: 200px;
+    width: 500px;
+  }
